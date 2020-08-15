@@ -1,0 +1,459 @@
+___________________ CONSTANT TOTAL (l = 100), INCREASING QUOROM (k) _____________________________________ 
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 50
+t: 49
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 2.859784483909607
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 60
+t: 39
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 3.241343784332275
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 70
+t: 29
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 2.9278862953186033
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 80
+t: 19
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 3.5907477140426636
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 90
+t: 9
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 3.6936625957489015
+
+___________________________ PROTOCOL 1 __________________________________________________
+l:50, k:25
+l:100, k:50
+l:250, k:125
+l:500, k:250
+l:750, k:375
+l:1000, k:500
+PROTOCOL 1
+
+--- IMPLEMENTATION TEST ---
+l: 50
+k: 25
+t: 24
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 1.4165032386779786
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 50
+t: 49
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 2.9532715320587157
+
+--- IMPLEMENTATION TEST ---
+l: 250
+k: 125
+t: 124
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 8.326980996131898
+
+--- IMPLEMENTATION TEST ---
+l: 500
+k: 250
+t: 249
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 24.6636953830719
+
+--- IMPLEMENTATION TEST ---
+l: 750
+k: 375
+t: 374
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 55.501486372947696
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 500
+t: 499
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 96.95540721416474
+
+____________________________ PROTOCOL 2 __________________________________________________
+
+--- IMPLEMENTATION TEST ---
+l: 50
+k: 25
+t: 23
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 1.2970530986785889
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 50
+t: 48
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 2.594096326828003
+
+--- IMPLEMENTATION TEST ---
+l: 250
+k: 125
+t: 123
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 5.8207207202911375
+
+--- IMPLEMENTATION TEST ---
+l: 500
+k: 250
+t: 248
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 13.130444645881653
+
+--- IMPLEMENTATION TEST ---
+l: 750
+k: 375
+t: 373
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 23.536913537979125
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 500
+t: 498
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 36.32982728481293
+
+
+__________________ INCREASING QUOROM ___________________________
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 100
+t: 98
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 10.825756764411926
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 200
+t: 198
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 16.920006465911865
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 300
+t: 298
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 24.022494554519653
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 400
+t: 398
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 31.644316911697388
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 500
+t: 498
+prime bit length: 512
+iterations: 5
+BITLENGTH: 512, iterations: 5.....
+Implementation running time (avg): 37.306210374832155
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 600
+t: 398
+prime bit length: 512
+iterations: 5
+BITLENGTH: 512, iterations: 5.....
+Implementation running time (avg): 45.550176000595094
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 700
+t: 298
+prime bit length: 512
+iterations: 5
+BITLENGTH: 512, iterations: 5.....
+Implementation running time (avg): 54.11603622436523
+
+--- IMPLEMENTATION TEST ---
+l: 1000
+k: 800
+t: 198
+prime bit length: 512
+iterations: 5
+BITLENGTH: 512, iterations: 5.....
+Implementation running time (avg): 61.603385877609256
+
+___________________________ TRY AGAIN BUT SMALLER l = 100 ___________________________
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 10
+t: 8
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 1.2443129539489746
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 20
+t: 18
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 1.6223878860473633
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 30
+t: 28
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 1.8099404335021974
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 40
+t: 38
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 2.160965371131897
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 50
+t: 48
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 2.4861274480819704
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 60
+t: 38
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 2.658984136581421
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 70
+t: 28
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 3.0132531404495237
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 80
+t: 18
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 3.185416841506958
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 90
+t: 8
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 3.491615152359009
+
+____________________________ PROTOCOL 1 (smaller party size) __________________________________________________
+l = 25, 50, ..., 250
+k = |_ l / 2 _| = 12, 25, ...
+t = k + 1
+
+--- IMPLEMENTATION TEST ---
+l: 25
+k: 12
+t: 11
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 0.7620038986206055
+
+--- IMPLEMENTATION TEST ---
+l: 50
+k: 25
+t: 24
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 1.3964868307113647
+
+--- IMPLEMENTATION TEST ---
+l: 75
+k: 37
+t: 36
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 1.9121483325958253
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 50
+t: 49
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 2.389603281021118
+
+--- IMPLEMENTATION TEST ---
+l: 125
+k: 62
+t: 61
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 3.4060365200042724
+
+--- IMPLEMENTATION TEST ---
+l: 150
+k: 75
+t: 74
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 4.2503903150558475
+
+--- IMPLEMENTATION TEST ---
+l: 175
+k: 87
+t: 86
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 4.584172081947327
+
+--- IMPLEMENTATION TEST ---
+l: 200
+k: 100
+t: 99
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 5.702734279632568
+
+--- IMPLEMENTATION TEST ---
+l: 250
+k: 125
+t: 124
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 7.697257876396179
+
+____________________________ PROTOCOL 2 (smaller party size) __________________________________________________
+l = 25, 50, ..., 250
+k = |_ l / 2 _| = 12, 25, ...
+t = k + 2
+
+--- IMPLEMENTATION TEST ---
+l: 50
+k: 25
+t: 23
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 1.244905376434326
+
+--- IMPLEMENTATION TEST ---
+l: 100
+k: 50
+t: 48
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 2.1188136100769044
+
+--- IMPLEMENTATION TEST ---
+l: 150
+k: 75
+t: 73
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 3.1119006156921385
+
+--- IMPLEMENTATION TEST ---
+l: 200
+k: 100
+t: 98
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 4.190252518653869
+
+--- IMPLEMENTATION TEST ---
+l: 250
+k: 125
+t: 123
+prime bit length: 512
+iterations: 10
+BITLENGTH: 512, iterations: 10..........
+Implementation running time (avg): 5.162203788757324

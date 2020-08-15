@@ -1,0 +1,134 @@
+BITLENGTH: 64, iterations: 2
+METHOD          SEC PR. PRIME GENERATION
+single:         0.038254737854003906
+multi:          1.2142293453216553
+sympy:          0.0599825382232666
+openssl:        0.029206514358520508
+..
+BITLENGTH: 128, iterations: 2
+METHOD          SEC PR. PRIME GENERATION
+single:         0.11106812953948975
+multi:          1.5578135251998901
+sympy:          0.26795053482055664
+openssl:        0.00903940200805664
+..
+BITLENGTH: 256, iterations: 2
+METHOD          SEC PR. PRIME GENERATION
+single:         20.067180156707764
+multi:          5.475614309310913
+sympy:          6.90706467628479
+openssl:        0.025321006774902344
+..
+BITLENGTH: 512, iterations: 2
+METHOD          SEC PR. PRIME GENERATION
+single:         34.983853220939636
+multi:          38.266852140426636
+sympy:          42.33558535575867
+openssl:        0.260392427444458
+
+________________________________________________________________________________
+
+BITLENGTH: 64, iterations: 2..
+METHOD          SEC PR. PRIME GENERATION
+single:         0.09235203266143799
+multi:          1.194203495979309
+sympy:          0.08657717704772949
+openssl:        0.019327282905578613
+
+BITLENGTH: 128, iterations: 2..
+METHOD          SEC PR. PRIME GENERATION
+single:         0.3076136112213135
+multi:          1.2568248510360718
+sympy:          0.3703969717025757
+openssl:        0.013025879859924316
+
+BITLENGTH: 256, iterations: 2..
+METHOD          SEC PR. PRIME GENERATION
+single:         2.469982385635376
+multi:          2.1492321491241455
+sympy:          12.678996205329895
+openssl:        0.06096458435058594
+
+BITLENGTH: 512, iterations: 2..
+METHOD          SEC PR. PRIME GENERATION
+single:         93.82566940784454
+multi:          11.468536257743835
+sympy:          128.0295605659485
+openssl:        0.11226391792297363
+
+________________________________________________________________________________
+
+BITLENGTH: 64, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         0.08128077983856201
+multi:          1.1443455219268799
+sympy:          0.07139527797698975
+openssl:        0.016348958015441895
+
+BITLENGTH: 128, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         0.7213231563568115
+multi:          1.4455187559127807
+sympy:          0.36595203876495364
+openssl:        0.013700199127197266
+
+BITLENGTH: 256, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         3.4945838928222654
+multi:          2.6201985359191893
+sympy:          8.703693294525147
+openssl:        0.046857357025146484
+
+BITLENGTH: 384, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         18.69201135635376
+multi:          5.291210341453552
+sympy:          19.90745105743408
+openssl:        0.08583457469940185
+
+BITLENGTH: 512, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         51.58698680400848
+multi:          11.931497621536256
+sympy:          47.16808853149414
+openssl:        0.37019646167755127
+
+_________________________ NEW 00:17 _________________________
+
+--- PRIME GENERATION TEST ---
+iterations: 10
+
+BITLENGTH: 64, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         0.04297115802764893
+multi:          1.1574718236923218
+sympy:          0.0018945932388305664
+openssl:        0.020975589752197266
+
+BITLENGTH: 128, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         0.6697123765945434
+multi:          1.4580329656600952
+sympy:          0.027144145965576173
+openssl:        0.015467500686645508
+
+BITLENGTH: 256, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         6.967806982994079
+multi:          3.658333492279053
+sympy:          0.1026005744934082
+openssl:        0.04395456314086914
+
+BITLENGTH: 384, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         37.70370032787323
+multi:          9.787400460243225
+sympy:          1.1536848306655885
+openssl:        0.25768792629241943
+
+BITLENGTH: 512, iterations: 10..........
+METHOD          SEC PER PRIMES GENERATION (avg.)
+single:         110.57372961044311
+multi:          22.244880771636964
+sympy:          3.923507833480835
+openssl:        0.31015686988830565

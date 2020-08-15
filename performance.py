@@ -3,6 +3,7 @@ from genprime import search_safe_prime_single, search_safe_prime_multi, search_s
 from main import main
 from shared import LogLevel
 
+
 def implementation_test():
     log = "NONE"
     l = int(input("l: "))
@@ -12,7 +13,7 @@ def implementation_test():
     i = int(input("iterations: "))
 
     test_args = {'log': log, 'l': l, 'k': k, 't': t, 'bitlength': bitlength, 'message': "hej"}
-    
+
     running_time = 0
     print(f"BITLENGTH: {bitlength}, iterations: {i}", end="", flush=True)
     for _ in range(i):
@@ -21,6 +22,7 @@ def implementation_test():
         running_time += time() - start_time
         print(".", end="", flush=True)
     print(f"\nImplementation running time (avg): {running_time / i}")
+
 
 def prime_gen_test():
     bitsizes = [64, 128, 256, 384, 512]
@@ -68,15 +70,16 @@ class test_args_dict(dict):
     __setattr__ = dict.__setitem__
     __delattr__ = dict.__delitem__
 
+
 if __name__ == "__main__":
     print("________________________________________________________________________________")
     print("PERFORMANCE TEST")
     print("________________________________________________________________________________")
     choice = input("Choose test: \n\t[i]mplementation \n\t[p]rime generation \n> ")
-    
+
     if choice == "i":
         print("--- IMPLEMENTATION TEST ---")
-        implementation_test()        
-    elif choice == "p":      
-        print("--- PRIME GENERATION TEST ---")  
+        implementation_test()
+    elif choice == "p":
+        print("--- PRIME GENERATION TEST ---")
         prime_gen_test()

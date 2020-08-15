@@ -58,17 +58,19 @@ class Dealer:
         verification_keys = [pow(self.v, share, self.n) for share in secret_key_shares]
         return verification_keys
 
+
 def print_poly(coeffs):
     """
         Print a readable polynomial corresponding to the given coefficients
     """
     res = "f(X) = "
-    for i, c in enumerate(coeffs):            
-        if i == 0: 
+    for i, c in enumerate(coeffs):
+        if i == 0:
             res += "%.4e" % c
         else:
-            res += " + %.4ex^%s" % (c,i)
+            res += " + %.4ex^%s" % (c, i)
     print(res)
+
 
 def random_square(upper):
     """

@@ -1,6 +1,5 @@
 from sys import version_info
 import argparse
-# from math import factorial, prod
 from sympy import factorial, jacobi_symbol
 from random import randint
 from dealer import Dealer
@@ -12,7 +11,7 @@ global loglevel
 loglevel = None
 
 
-def main(args = None):
+def main(args=None):
     assert version_info.major == 3 and version_info.minor == 8, "Ensure python version (= 3.8)"
 
     """ SETUP """
